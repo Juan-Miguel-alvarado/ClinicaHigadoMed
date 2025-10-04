@@ -73,6 +73,7 @@ a {
   border: none;
   border-radius: 20px;
   background: var(--blue-color);
+  font-size: 16px;
   color: #fff;
   font-family: var(--font-secondary);
   font-weight: 600;
@@ -278,6 +279,7 @@ a {
   border: 1px solid #ddd;
   border-radius: 10px;
   background: #fff;
+  color: var(--dark-pink-color);
   font-family: var(--font-secondary);
   font-weight: 600;
   cursor: pointer;
@@ -303,6 +305,7 @@ a {
 }
 
 .services_extra li {
+  font-size: 14.4px;
   margin-bottom: 0.5rem;
   font-family: var(--font-secondary);
 }
@@ -552,16 +555,28 @@ a {
   }
 }
 
-@media (max-width: 416px) {
+@media (max-width: 472px) {
+  
   body {
-    padding: 1rem 0.5rem 0 0.5rem;
+    padding: 1rem 1rem 0 1rem;
   }
-
 
   .main_text{
     justify-content: start;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    text-align: start;
+    align-items: start;
   }
 
+  .services {
+    padding: 1rem 1rem;
+  }
+
+  .locations, .instagram, .services_title {
+    text-align: start;
+  }
+
+  .instagram {
+    height: auto !important;
+  }
 }
