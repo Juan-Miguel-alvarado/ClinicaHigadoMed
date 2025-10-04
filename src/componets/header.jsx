@@ -22,7 +22,6 @@ function Header() {
       <nav className={`header_nav ${menuOpen ? "open" : ""}`}>
         <a href="#services" onClick={() => setMenuOpen(false)}>Servicios</a>
         <a href="#locations" onClick={() => setMenuOpen(false)}>Ubicación</a>
-        <a href="#" onClick={() => setMenuOpen(false)}>Blogs</a>
       </nav>
 
       {/* Botón cita (solo escritorio) */}
