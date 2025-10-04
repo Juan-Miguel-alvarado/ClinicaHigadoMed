@@ -572,11 +572,27 @@ a {
     padding: 1rem 1rem;
   }
 
+  .instagram {
+    height: auto !important;
+  }
+
   .locations, .instagram, .services_title {
     text-align: start;
+  }
+
+  .services_btn {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 466px) {
+  .services{
+    padding: 0;
   }
 
   .instagram {
     height: auto !important;
   }
 }
+
