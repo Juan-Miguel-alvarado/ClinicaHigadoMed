@@ -184,9 +184,14 @@ function App() {
               Ver en google Maps
             </a>
             <p>
-              <i className="bi bi-telephone-outbound-fill pink_text"></i> 300 711 2658 - 313 761 3212
+              <i className="bi bi-telephone-outbound-fill pink_text"></i> 300
+              711 2658 - 313 761 3212
             </p>
-            <a  target="_blank" href="https://wa.me/573007112658? text=%C2%A1Hola!%20Vengo%20de%20la%20p%C3%A1gina%20web%20de%20Higadomed%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20el%20Dr.%20V%C3%ADctor%20Escand%C3%B3n" className="defauld_btn">
+            <a
+              target="_blank"
+              href="https://wa.me/573007112658? text=%C2%A1Hola!%20Vengo%20de%20la%20p%C3%A1gina%20web%20de%20Higadomed%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20el%20Dr.%20V%C3%ADctor%20Escand%C3%B3n"
+              className="defauld_btn"
+            >
               <i className="bi bi-telephone"></i> Agenda tu cita
             </a>
           </div>
@@ -206,9 +211,14 @@ function App() {
               Ver en google Maps
             </a>
             <p>
-              <i className="bi bi-telephone-outbound-fill pink_text"></i> 305 2657939 -  313 761 3212
+              <i className="bi bi-telephone-outbound-fill pink_text"></i> 305
+              2657939 - 313 761 3212
             </p>
-            <a  target="_blank" href="https://wa.me/573052657939?text=%C2%A1Hola!%20Vengo%20de%20la%20p%C3%A1gina%20web%20de%20Higadomed%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20el%20Dr.%20V%C3%ADctor%20Escand%C3%B3n" className="defauld_btn">
+            <a
+              target="_blank"
+              href="https://wa.me/573052657939?text=%C2%A1Hola!%20Vengo%20de%20la%20p%C3%A1gina%20web%20de%20Higadomed%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20el%20Dr.%20V%C3%ADctor%20Escand%C3%B3n"
+              className="defauld_btn"
+            >
               <i className="bi bi-telephone"></i> Agenda tu cita
             </a>
           </div>
@@ -229,9 +239,14 @@ function App() {
               Ver en google Maps
             </a>
             <p>
-              <i className="bi bi-telephone-outbound-fill pink_text"></i> 300 328 4673 -  313 761 3212
+              <i className="bi bi-telephone-outbound-fill pink_text"></i> 300
+              328 4673 - 313 761 3212
             </p>
-            <a  target="_blank" href="https://wa.me/573003284673?text=%C2%A1Hola!%20Vengo%20de%20la%20p%C3%A1gina%20web%20de%20Higadomed%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20el%20Dr.%20V%C3%ADctor%20Escand%C3%B3n" className="defauld_btn">
+            <a
+              target="_blank"
+              href="https://wa.me/573003284673?text=%C2%A1Hola!%20Vengo%20de%20la%20p%C3%A1gina%20web%20de%20Higadomed%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20el%20Dr.%20V%C3%ADctor%20Escand%C3%B3n"
+              className="defauld_btn"
+            >
               <i className="bi bi-telephone"></i> Agenda tu cita
             </a>
           </div>
@@ -240,31 +255,65 @@ function App() {
 
       <section className="instagram">
         <button className="instagram_btn">Mira lo último 👇</button>
-        <h2 className="instagram_title">
-          Aprende más sobre tu salud hepática
-        </h2>
+        <h2 className="instagram_title">Aprende más sobre tu salud hepática</h2>
         <p className="instagram_subtitle">
           Suscríbete a nuestro canal de YouTube y aprende con tips claros y
           confiables. <br />
           Síguenos también en Instagram <span>@higadomed 💜</span>
         </p>
-        <div className=".instagram_grid">
+        <div className="instagram_grid">
+          {/* Reel 1 - Servicios */}
+          <div className="insta_post">
+            <iframe
+              src="https://www.instagram.com/reel/DOqoyuDDl6v/embed"
+              title="Reel Servicios"
+              allowTransparency="true"
+              frameBorder="0"
+              scrolling="no"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+
+          {/* Reel 2 - Fibroscan */}
+          <div className="insta_post">
+            <iframe
+              src="https://www.instagram.com/reel/DPT5gnbDoHI/embed"
+              title="Reel Fibroscan"
+              allowTransparency="true"
+              frameBorder="0"
+              scrolling="no"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+
+          {/* Reel 3 - Programa Hígado Sano */}
+          <div className="insta_post">
+            <iframe
+              src="https://www.instagram.com/reel/DPC19q1jggS/embed"
+              title="Reel Programa Hígado Sano"
+              allowTransparency="true"
+              frameBorder="0"
+              scrolling="no"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section className="youtube">
+        <button className="youtube_btn">Nuestro canal 👇</button>
+        <h2 className="youtube_title">Últimos videos de HigadoMed</h2>
+        <p className="youtube_subtitle">
+          Mira las últimas publicaciones y consejos del Dr. Escandón
+          directamente desde nuestro canal de YouTube.
+        </p>
+        <div className="youtube_container">
           <iframe
-            src="https://snapwidget.com/embed/1109216"
-            className="snapwidget-widget"
-            allowTransparency={true}
-            frameBorder="0"
-            scrolling="no"
-            style={{
-              border: "none",
-              overflow: "hidden",
-              width: "100%",
-              height: "600px", // ajusta según lo necesites
-            }}
-            title="Posts from Instagram"
+            src="https://www.youtube.com/embed?list=UUi85Ml4SKdwjpQb0oRoQxkQ"
+            title="HigadoMed - Últimos videos"
+            allowFullScreen
           ></iframe>
         </div>
-  
       </section>
 
       <Footer />
