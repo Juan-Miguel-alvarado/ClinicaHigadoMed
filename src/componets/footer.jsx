@@ -8,11 +8,10 @@ function Footer() {
         {/* Logo + redes */}
         <div className="footer_logo">
           <img src={logoImg} alt="HigadoMed Logo" className="footer_img" />
-          <p className="footer_subtitle">Centro Regional del Hígado</p>
           <div className="footer_socials">
-            <a href="https://youtube.com" target="_blank" rel="noreferrer">
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer">
+            <a href="https://youtube.com/@higadomed?si=mUJ-d0hiXH9Mib76" target="_blank" rel="noreferrer">
+            <i className="bi bi-youtube"></i></a>
+            <a href="https://www.instagram.com/higadomed?igsh=MWRnNWlvMTFvd2xyaw%3D%3D&utm_source=qr" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i>
             </a>
           </div>
         </div>

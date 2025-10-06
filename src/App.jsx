@@ -20,9 +20,9 @@ function App() {
             Servicios de atención integral y humanizada para tu salud en las
             mejores manos
           </p>
-          <button className="defauld_btn">
+          <a href="#locations" className="defauld_btn desktop_only">
             <i className="bi bi-telephone"></i> Agenda tu cita
-          </button>
+          </a>
         </div>
 
         <div className="main_container_img">
@@ -177,19 +177,18 @@ function App() {
             </p>
             <a
               className="pink_text"
-              href="https://maps.google.com"
+              href="https://maps.app.goo.gl/gzaEwcVLFLGDXJEs7"
               target="_blank"
               rel="noreferrer"
             >
               Ver en google Maps
             </a>
             <p>
-              <i className="bi bi-telephone-outbound-fill pink_text"></i> 300
-              711 2658 - 318 761 3212
+              <i className="bi bi-telephone-outbound-fill pink_text"></i> 300 711 2658 - 313 761 3212
             </p>
-            <button className="defauld_btn">
+            <a  target="_blank" href="https://wa.me/573007112658? text=%C2%A1Hola!%20Vengo%20de%20la%20p%C3%A1gina%20web%20de%20Higadomed%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20el%20Dr.%20V%C3%ADctor%20Escand%C3%B3n" className="defauld_btn">
               <i className="bi bi-telephone"></i> Agenda tu cita
-            </button>
+            </a>
           </div>
 
           <div className="location_card">
@@ -200,23 +199,18 @@ function App() {
             </p>
             <a
               className="pink_text"
-              href="https://maps.google.com"
+              href="https://maps.app.goo.gl/fs6gBAfDmaPYX55D6"
               target="_blank"
               rel="noreferrer"
             >
               Ver en google Maps
             </a>
             <p>
-              <i className="bi bi-telephone-outbound-fill pink_text"></i> 604
-              3227979
+              <i className="bi bi-telephone-outbound-fill pink_text"></i> 305 2657939 -  313 761 3212
             </p>
-            <p>
-              <i className="bi bi-telephone-outbound-fill pink_text"></i> 305
-              2657939 – 323 4852476
-            </p>
-            <button className="defauld_btn">
+            <a  target="_blank" href="https://wa.me/573052657939?text=%C2%A1Hola!%20Vengo%20de%20la%20p%C3%A1gina%20web%20de%20Higadomed%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20el%20Dr.%20V%C3%ADctor%20Escand%C3%B3n" className="defauld_btn">
               <i className="bi bi-telephone"></i> Agenda tu cita
-            </button>
+            </a>
           </div>
 
           <div className="location_card">
@@ -228,19 +222,18 @@ function App() {
             </p>
             <a
               className="pink_text"
-              href="https://maps.google.com"
+              href="https://maps.app.goo.gl/NfwQLWE42XzoTTGv6"
               target="_blank"
               rel="noreferrer"
             >
               Ver en google Maps
             </a>
             <p>
-              <i className="bi bi-telephone-outbound-fill pink_text"></i> 300
-              711 2658 – 300 328 4673
+              <i className="bi bi-telephone-outbound-fill pink_text"></i> 300 328 4673 -  313 761 3212
             </p>
-            <button className="defauld_btn">
+            <a  target="_blank" href="https://wa.me/573003284673?text=%C2%A1Hola!%20Vengo%20de%20la%20p%C3%A1gina%20web%20de%20Higadomed%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20el%20Dr.%20V%C3%ADctor%20Escand%C3%B3n" className="defauld_btn">
               <i className="bi bi-telephone"></i> Agenda tu cita
-            </button>
+            </a>
           </div>
         </div>
       </section>

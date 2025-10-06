@@ -25,9 +25,9 @@ function Header() {
       </nav>
 
       {/* Botón cita (solo escritorio) */}
-      <button className="defauld_btn desktop_only">
+      <a href="#locations" className="defauld_btn desktop_only">
         <i className="bi bi-telephone"></i> Agenda tu cita
-      </button>
+      </a>
     </header>
   );
 }
