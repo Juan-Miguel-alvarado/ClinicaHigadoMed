@@ -100,7 +100,7 @@ a {
   background: var(--bg-color);
   top: 0;
   padding: 1rem 0 0.5rem 0;
-  box-shadow: 250px 0px var(--bg-color),-250px 0 0 var(--bg-color);
+  box-shadow: 500px 0px var(--bg-color),-500px 0 0 var(--bg-color);
   z-index: 100;
 }
 
@@ -217,7 +217,7 @@ a {
   margin: 4rem 0;
   margin-top: 6rem;
   background: #fff;
-  box-shadow: 300px 0px #fff,-300px 0 0 #fff;
+  box-shadow: 500px 0px #fff,-500px 0 0 #fff;
   padding: 3rem 2rem;
 }
 
@@ -384,7 +384,7 @@ a {
   padding: 4rem 2rem;
   background: #fff;
   height: auto;
-  box-shadow: 200px 0px #fff,-200px 0 0 #fff, 0 200px #fff, 200px 200px #fff,-200px 200px 0 #fff;
+  box-shadow: 500px 0px #fff,-500px 0 0 #fff, 0 200px #fff, 200px 200px #fff,-200px 200px 0 #fff;
 }
 
 .instagram_btn {
@@ -436,7 +436,7 @@ a {
   text-align: center;
   padding: 4rem 2rem;
   background: #fff;
-  box-shadow: 200px 0px #fff,-200px 0 0 #fff, 0 200px #fff, 200px 200px #fff,-200px 200px 0 #fff;
+  box-shadow: 500px 0px #fff,-500px 0 0 #fff, 0 500px #fff, 500px 500px #fff,-500px 500px 0 #fff;
 }
 
 .youtube_btn {
@@ -485,7 +485,7 @@ a {
   padding: 4rem 2rem;
   color: white;
   margin-top: 4rem;
-  box-shadow: 200px 0px var(--blue-color),-200px 0 0 var(--blue-color);
+  box-shadow: 500px 0px var(--blue-color),-500px 0 0 var(--blue-color);
 }
 
 .footer_content {
@@ -518,6 +518,9 @@ a {
   padding: 0.5rem 0.8rem;
   border-radius: 50%;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer_socials a:hover {
@@ -545,6 +548,10 @@ a {
 
 .footer_locations a:hover {
   color: white;
+}
+
+.yt {
+  font-size: 1.4rem;
 }
 
 /*=-=-=-=-=-=-=-=-=- Media Queries -=-=-=-=-=-=-=-=-=*/

@@ -259,7 +259,7 @@ function App() {
         <p className="instagram_subtitle">
           Suscríbete a nuestro canal de YouTube y aprende con tips claros y
           confiables. <br />
-          Síguenos también en Instagram <span>@higadomed 💜</span>
+          Síguenos también en Instagram <span><a href="https://www.instagram.com/higadomed?igsh=MWRnNWlvMTFvd2xyaw%3D%3D&utm_source=qr" target="_blank">@higadomed 💜</a></span>
         </p>
         <div className="instagram_grid">
           {/* Reel 1 - Servicios */}

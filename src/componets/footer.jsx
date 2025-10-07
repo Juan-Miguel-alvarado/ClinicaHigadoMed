@@ -10,8 +10,10 @@ function Footer() {
           <img src={logoImg} alt="HigadoMed Logo" className="footer_img" />
           <div className="footer_socials">
             <a href="https://youtube.com/@higadomed?si=mUJ-d0hiXH9Mib76" target="_blank" rel="noreferrer">
-            <i className="bi bi-youtube"></i></a>
-            <a href="https://www.instagram.com/higadomed?igsh=MWRnNWlvMTFvd2xyaw%3D%3D&utm_source=qr" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i>
+            <i className="bi bi-play-btn yt"></i>
+            </a>
+            <a href="https://www.instagram.com/higadomed?igsh=MWRnNWlvMTFvd2xyaw%3D%3D&utm_source=qr" target="_blank" rel="noreferrer">
+            <i className="bi bi-instagram"></i>
             </a>
           </div>
         </div>
