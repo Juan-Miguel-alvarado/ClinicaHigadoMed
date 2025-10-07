@@ -316,6 +316,7 @@ a {
   text-align: center;
   margin: 5rem 0;
   margin-top: 8rem;
+  padding: 3rem 2rem;
 }
 
 .locations_title {
@@ -577,6 +578,13 @@ a {
   }
 }
 
+@media (max-width: 728px) {
+  .youtube_container iframe {
+    width: 100%;
+  }
+}
+
+
 @media (max-width: 700px) {
   .header .defauld_btn {
     display: none;
@@ -615,13 +623,31 @@ a {
   }
 }
 
+@media (max-width: 506px) {
+  .footer {
+    box-shadow: 200px 0px var(--blue-color),-200px 0 0 var(--blue-color);
+  }
+
+  .youtube {
+    box-shadow: 200px 0px #fff,-200px 0 0 #fff, 0 500px #fff, 200px 500px #fff,-200px 500px 0 #fff;
+  }
+
+  .instagram {
+    box-shadow: 200px 0px #fff,-200px 0 0 #fff, 0 200px #fff, 200px 200px #fff,-200px 200px 0 #fff;
+  }
+
+  .services {
+    box-shadow: 200px 0px #fff,-200px 0 0 #fff;
+  }
+}
+
 @media (max-width: 472px) {
   
   body {
     padding: 1rem 1rem 0 1rem;
   }
 
-  .main_text{
+  .main_text, .youtube{
     justify-content: start;
     justify-content: start;
     text-align: start;
@@ -633,11 +659,15 @@ a {
     padding: 2rem 1.5rem 0 1rem;
   }
 
-  .services {
+  .services, .locations{
     padding: 1rem 1rem;
   }
 
-  .locations, .instagram, .services_title {
+  .youtube{
+    margin-top: 4rem;
+  }
+
+  .locations, .instagram, .services_title{
     text-align: start;
   }
 
@@ -646,11 +676,15 @@ a {
   }
 }
 
-
 @media (max-width: 466px) {
-  .services{
+  .services, .locations{
     padding: 0;
   }
+}
 
+@media (max-width: 433px) {
+  .main_text h1{
+    font-size: 30px;
+  }
 }
 
