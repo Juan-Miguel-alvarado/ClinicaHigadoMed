@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 2000, // duración en milisegundos
+      duration: 800, // duración en milisegundos
       offset: 100,   // distancia desde el trigger
       once: true,    // solo una vez
     });
@@ -44,7 +44,7 @@ function App() {
       </main>
 
       <section id="services" className="services">
-        <h2 data-aos="zoom-in" className="services_title">Servicios Destacados</h2>
+        <h2 className="services_title">Servicios Destacados</h2>
 
         <div className="services_grid">
           <div data-aos="fade-up" className="service_card">
@@ -172,7 +172,7 @@ function App() {
       </section>
 
       <section id="locations" className="locations">
-        <h2 data-aos="zoom-in" className="locations_title">
+        <h2 className="locations_title">
           Agenda tu cita en la sede más cercana
         </h2>
         <p className="locations_subtitle">
@@ -268,7 +268,7 @@ function App() {
 
       <section className="instagram">
         <button className="instagram_btn">Mira lo último 👇</button>
-        <h2 data-aos="flip-down" className="instagram_title">Aprende más sobre tu salud hepática</h2>
+        <h2 className="instagram_title">Aprende más sobre tu salud hepática</h2>
         <p className="instagram_subtitle">
           Síguenos también en Instagram <span><a href="https://www.instagram.com/higadomed?igsh=MWRnNWlvMTFvd2xyaw%3D%3D&utm_source=qr" target="_blank">@higadomed 💜</a></span>
         </p>
@@ -312,8 +312,8 @@ function App() {
       </section>
 
       <section className="youtube">
-        <button data-aos="flip-down" className="youtube_btn">Nuestro canal 👇</button>
-        <h2 data-aos="zoom-in" className="youtube_title">Últimos videos de HigadoMed</h2>
+        <button className="youtube_btn">Nuestro canal 👇</button>
+        <h2 className="youtube_title">Últimos videos de HigadoMed</h2>
         <p className="youtube_subtitle">
           Suscríbete a nuestro <a href="https://www.youtube.com/@higadomed" target="_blank" rel="noopener noreferrer">canal de YouTube</a> y aprende con tips claros y
           confiables.
