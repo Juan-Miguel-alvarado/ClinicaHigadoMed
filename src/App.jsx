@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 800, // duración en milisegundos
+      duration: 2000, // duración en milisegundos
       offset: 100,   // distancia desde el trigger
       once: true,    // solo una vez
     });
