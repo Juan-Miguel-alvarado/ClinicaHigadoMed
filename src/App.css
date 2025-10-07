@@ -114,6 +114,14 @@ a {
   transition: right 0.3s ease;
 }
 
+.header_nav a{
+  transition: all 0.3s ease;
+}
+
+.header_nav a:hover{
+  font-weight: 700;
+}
+
 /* Botón hamburguesa */
 .hamburger_btn {
   display: none;
@@ -416,6 +424,7 @@ a {
 .instagram_subtitle span {
   color: var(--pink-color);
   font-weight: 500;
+  text-decoration: underline;
 }
 
 .instagram_grid {
@@ -450,7 +459,7 @@ a {
   font-size: 1rem;
   cursor: pointer;
   margin-bottom: 1rem;
-  transform: rotate(-2deg);
+  transform: rotate(-2deg) !important;
 }
 
 .youtube_title {
@@ -466,6 +475,9 @@ a {
   margin: 0 auto 2rem auto;
 }
 
+.youtube_subtitle a{
+  text-decoration: underline;
+}
 .youtube_container {
   display: flex;
   justify-content: center;
@@ -549,6 +561,10 @@ a {
 
 .footer_locations a:hover {
   color: white;
+}
+
+.ig {
+  padding: 0.1rem 0.1rem;
 }
 
 .yt {
@@ -678,7 +694,7 @@ a {
 
 @media (max-width: 466px) {
   .services, .locations{
-    padding: 0;
+    padding: 0 0 2rem 0;
   }
 }
 

@@ -1,4 +1,8 @@
+import { useEffect } from 'react';
 import { useState } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import doctorImg from "./assets/Doctor.png";
 import plusImg from "./assets/+.svg";
 import Header from "./componets/header.jsx";
@@ -8,12 +12,21 @@ import "./App.css";
 function App() {
   const [showMore, setShowMore] = useState(false);
 
+  useEffect(() => {
+    AOS.init({
+      duration: 800, // duración en milisegundos
+      offset: 100,   // distancia desde el trigger
+      once: true,    // solo una vez
+    });
+  }, []);
+
+
   return (
     <>
       <Header />
 
       <main className="main">
-        <div className="main_text">
+        <div data-aos="fade-right" className="main_text">
           <h3>Cuidamos tu Hígado</h3>
           <h1>Hepatología holística y de precisión a tu servicio.</h1>
           <p>
@@ -25,16 +38,16 @@ function App() {
           </a>
         </div>
 
-        <div className="main_container_img">
+        <div data-aos="fade-left" className="main_container_img">
           <img className="main_doctor_img" src={doctorImg} alt="Doctor" />
         </div>
       </main>
 
       <section id="services" className="services">
-        <h2 className="services_title">Servicios Destacados</h2>
+        <h2 data-aos="zoom-in" className="services_title">Servicios Destacados</h2>
 
         <div className="services_grid">
-          <div className="service_card">
+          <div data-aos="fade-up" className="service_card">
             <div>
               <img
                 className="service_img service_img_blue"
@@ -51,7 +64,7 @@ function App() {
             </div>
           </div>
 
-          <div className="service_card">
+          <div data-aos="fade-up" className="service_card">
             <div>
               <img
                 className="service_img service_img_blue"
@@ -68,7 +81,7 @@ function App() {
             </div>
           </div>
 
-          <div className="service_card">
+          <div data-aos="fade-up" className="service_card">
             <div>
               <img
                 className="service_img service_img_blue"
@@ -85,7 +98,7 @@ function App() {
             </div>
           </div>
 
-          <div className="service_card">
+          <div data-aos="fade-up" className="service_card">
             <div>
               <img
                 className="service_img service_img_blue"
@@ -102,7 +115,7 @@ function App() {
             </div>
           </div>
 
-          <div className="service_card">
+          <div data-aos="fade-up" className="service_card">
             <div>
               <img
                 className="service_img service_img_blue"
@@ -116,7 +129,7 @@ function App() {
             </div>
           </div>
 
-          <div className="service_card">
+          <div data-aos="fade-up" className="service_card">
             <div>
               <img
                 className="service_img service_img_blue"
@@ -159,7 +172,7 @@ function App() {
       </section>
 
       <section id="locations" className="locations">
-        <h2 className="locations_title">
+        <h2 data-aos="zoom-in" className="locations_title">
           Agenda tu cita en la sede más cercana
         </h2>
         <p className="locations_subtitle">
@@ -168,7 +181,7 @@ function App() {
         </p>
 
         <div className="locations_grid">
-          <div className="location_card">
+          <div data-aos="fade-up" className="location_card">
             <h3>Torre Médica las Américas</h3>
             <h4>Consultorio 609, 705</h4>
             <p>
@@ -196,7 +209,7 @@ function App() {
             </a>
           </div>
 
-          <div className="location_card">
+          <div data-aos="fade-up" className="location_card">
             <h3>Centro Médico CAMES</h3>
             <p>
               <i className="bi bi-geo-alt-fill pink_text"></i> Calle 33A número
@@ -223,7 +236,7 @@ function App() {
             </a>
           </div>
 
-          <div className="location_card">
+          <div data-aos="fade-up" className="location_card">
             <h3>Clínica Llano Grande</h3>
             <p>
               <i className="bi bi-geo-alt-fill pink_text"></i> Ubicada en el km
@@ -255,13 +268,11 @@ function App() {
 
       <section className="instagram">
         <button className="instagram_btn">Mira lo último 👇</button>
-        <h2 className="instagram_title">Aprende más sobre tu salud hepática</h2>
+        <h2 data-aos="flip-down" className="instagram_title">Aprende más sobre tu salud hepática</h2>
         <p className="instagram_subtitle">
-          Suscríbete a nuestro canal de YouTube y aprende con tips claros y
-          confiables. <br />
           Síguenos también en Instagram <span><a href="https://www.instagram.com/higadomed?igsh=MWRnNWlvMTFvd2xyaw%3D%3D&utm_source=qr" target="_blank">@higadomed 💜</a></span>
         </p>
-        <div className="instagram_grid">
+        <div data-aos="fade-up" className="instagram_grid">
           {/* Reel 1 - Servicios */}
           <div className="insta_post">
             <iframe
@@ -301,13 +312,13 @@ function App() {
       </section>
 
       <section className="youtube">
-        <button className="youtube_btn">Nuestro canal 👇</button>
-        <h2 className="youtube_title">Últimos videos de HigadoMed</h2>
+        <button data-aos="flip-down" className="youtube_btn">Nuestro canal 👇</button>
+        <h2 data-aos="zoom-in" className="youtube_title">Últimos videos de HigadoMed</h2>
         <p className="youtube_subtitle">
-          Mira las últimas publicaciones y consejos del Dr. Escandón
-          directamente desde nuestro canal de YouTube.
+          Suscríbete a nuestro <a href="https://www.youtube.com/@higadomed" target="_blank" rel="noopener noreferrer">canal de YouTube</a> y aprende con tips claros y
+          confiables.
         </p>
-        <div className="youtube_container">
+        <div data-aos="fade-up" className="youtube_container">
           <iframe
             src="https://www.youtube.com/embed?list=UUi85Ml4SKdwjpQb0oRoQxkQ"
             title="HigadoMed - Últimos videos"

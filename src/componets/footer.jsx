@@ -13,7 +13,7 @@ function Footer() {
             <i className="bi bi-play-btn yt"></i>
             </a>
             <a href="https://www.instagram.com/higadomed?igsh=MWRnNWlvMTFvd2xyaw%3D%3D&utm_source=qr" target="_blank" rel="noreferrer">
-            <i className="bi bi-instagram"></i>
+            <i className="bi bi-instagram ig"></i>
             </a>
           </div>
         </div>
